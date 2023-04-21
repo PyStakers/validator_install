@@ -12,3 +12,11 @@ This script automates the installation and setup of an Ethereum validator node w
 6) Downloads and installs the latest Geth and Lighthouse binaries.
 7) Sets up and writes service files for Geth, Lighthouse Beacon, and Lighthouse Validator.
 8) Displays the final setup information, including firewall status and software versions.
+
+To run the script, use these commands:
+
+git clone https://github.com/PyStakers/validator_install.git
+
+sudo pip install requests
+
+python3 /validator_install/validator_install.py
