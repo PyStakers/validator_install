@@ -63,8 +63,6 @@ def prompt_checkpoint_sync_url():
 
 sync_url = prompt_checkpoint_sync_url()
 
-
-
 # Install ufw
 subprocess.run(['sudo', 'apt', 'install', 'ufw'])
 
