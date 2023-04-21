@@ -1,14 +1,14 @@
 # Ethereum Validator Install
-Automated Installation and Configuration for Ethereum Validator using Geth & Lighthouse
+Automated installation and configuration for Ethereum Validator using Geth & Lighthouse
 
-Easily set up an Ethereum Validator in just 1 minute, as opposed to hours spent on manual configuration.
+Easily set up an Ethereum Validator in just 1 click, as opposed to hours spent on manual configuration.
 
 # Summary
 This Python script simplifies and automates the installation and configuration process of an Ethereum validator node.
 
 It is based on [Somer Esat's - Lighthouse/Geth](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) Guide and uses a single Python script to automate the entire process.
 
-Important Note: This script does not handle generating validator keys, keystores, mnemonics, or any security related items. It simply prepares the computer for staking by installing the binaries, creating users, writing service files etc. 
+Important Note: This script does not handle generating validator keys, keystores, mnemonics, or any other security related items. It simply prepares the computer for staking by installing the binaries, creating users, writing service files etc. 
 
 After the 1 minute installation, Geth and Ligthouse Beacon are properly configured and can begin syncing.
 
@@ -17,9 +17,9 @@ If you want to run a full validator, you'll also need to generate a mnemonic and
 # Validator Install Script
 The `validator_install.py` script performs the following tasks:
 
-1) Prompts user to select Ethereum network (mainnet / testnet)
-2) Prompts user to set Ethereum address for validator tips. (optional)
-3) Prompts user to set Checkpoint Sync. (optional)
+1) Prompts user to select Ethereum network (mainnet / testnet).
+2) Prompts user to set Ethereum address for validator tips (optional).
+3) Prompts user to set Checkpoint Sync (optional).
 4) Installs and configures Universal Firewall (ufw).
 5) Creates necessary users, directories, and files.
 6) Downloads and installs the latest Geth and Lighthouse binaries.
