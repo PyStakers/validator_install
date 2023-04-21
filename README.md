@@ -8,9 +8,9 @@ This Python script simplifies and automates the installation and configuration p
 
 It is based on [Somer Esat's - Lighthouse/Geth](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) guide and uses a single Python script to automate the entire process.
 
-Important Note: This script does not handle generating validator keys, keystores, mnemonics, or any other security related items. It simply prepares the computer for staking by installing the binaries, creating users, writing service files etc. 
+**Important Note:** This script does not handle generating validator keys, keystores, mnemonics, or any other security related items. It simply prepares the computer for staking by installing the binaries, creating users, writing service files etc. 
 
-After the 1 minute installation, Geth and Ligthouse Beacon are properly configured and can begin syncing.
+Once installed, Geth and Ligthouse Beacon will be properly configured and can begin syncing.
 
 If you want to run a full validator, you'll also need to generate a mnemonic and keystores to run the validator. Please refer to [Somer's guide](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) or this [Ubuntu - Key Generation Guide](https://agstakingco.gitbook.io/eth-2-0-key-generation-ubuntu-live-usb/) to learn more.
 
@@ -24,7 +24,7 @@ The `validator_install.py` script performs the following tasks:
 5) Creates necessary users, directories, and files.
 6) Downloads and installs the latest Geth and Lighthouse binaries.
 7) Sets up and writes service files for Geth, Lighthouse Beacon, and Lighthouse Validator.
-8) Displays a summary of the installation, including firewall status and software versions.
+8) Displays a summary of the installation.
 
 **To run the script, use these commands:**
 
