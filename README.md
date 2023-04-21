@@ -2,10 +2,14 @@
 Ethereum Validator - Automated installation and confinguration
 
 # Summary
-This script automates the installation and setup of an Ethereum validator node with Geth and Lighthouse. It performs the following tasks:
+This script automates the installation and setup of an Ethereum validator node with Geth and Lighthouse.
+
+I used Somer Esat's Lighthouse/Geth as a guide and created a single Python script to automate everything
+
+It performs the following tasks:
 
 1) Prompts user to select Ethereum Network
-2) Promtpts user for Ethereum address for validator tips. (optional)
+2) Prompts user for Ethereum address for validator tips. (optional)
 3) Allows the user to set Checkpoint Sync. (optional)
 4) Installs and configures Universal Firewall (ufw).
 5) Creates necessary users, directories, and files.
