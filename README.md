@@ -23,4 +23,4 @@ This script automates the installation and setup of an Ethereum validator node w
 
 `sudo pip install requests`
 
-`python3 /validator_install/validator_install.py`
+`python3 validator_install/validator_install.py`
