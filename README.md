@@ -6,7 +6,7 @@ Easily set up an Ethereum Validator in just 1 click, as opposed to hours spent o
 # Summary
 This Python script simplifies and automates the installation and configuration process of an Ethereum validator node.
 
-It is based on [Somer Esat's - Lighthouse/Geth](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) Guide and uses a single Python script to automate the entire process.
+It is based on [Somer Esat's - Lighthouse/Geth](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) guide and uses a single Python script to automate the entire process.
 
 Important Note: This script does not handle generating validator keys, keystores, mnemonics, or any other security related items. It simply prepares the computer for staking by installing the binaries, creating users, writing service files etc. 
 
