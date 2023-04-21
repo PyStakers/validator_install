@@ -12,13 +12,13 @@ Important Note: This script does not handle generating validator keys, keystores
 
 After the 1 minute installation, Execution (Geth) and Consensus (Lighthouse) clients are properly configured and can begin syncing.
 
-If you want to run a full validator, you'll also need to generate a mnemonic and keystores to run the validator. Please refer to [Somer's guide](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) or this [Ubuntu - Key Generation Guide](https://app.gitbook.com/s/-MMPsvIEM2fJY_8ygWws/) to learn more.
+If you want to run a full validator, you'll also need to generate a mnemonic and keystores to run the validator. Please refer to [Somer's guide](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) or this [Ubuntu - Key Generation Guide](https://agstakingco.gitbook.io/eth-2-0-key-generation-ubuntu-live-usb/) to learn more.
 
 # Validator Install Script
 The `validator_install.py` script performs the following tasks:
 
-1) Prompts user to select Ethereum Network (mainnet / testnet)
-2) Prompts user for Ethereum address for validator tips. (optional)
+1) Prompts user to select Ethereum network (mainnet / testnet)
+2) Prompts user to set Ethereum address for validator tips. (optional)
 3) Prompts user to set Checkpoint Sync. (optional)
 4) Installs and configures Universal Firewall (ufw).
 5) Creates necessary users, directories, and files.
