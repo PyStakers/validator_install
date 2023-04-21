@@ -1,16 +1,16 @@
 # Ethereum Validator Install
-Ethereum Validator - Automated Installation and Confinguration
+Automated Installation and Configuration for Ethereum Validator using Geth & Lighthouse
 
-1 click, 1 minute, Ethereum Validator running Geth & Lighthouse
+Easily set up an Ethereum Validator in just 1 minute, as opposed to hours spent on manual configuration.
 
 # Summary
-This script automates the installation and setup of an Ethereum validator node using Geth and Lighthouse.
+This Python script simplifies and automates the installation and configuration process of an Ethereum validator node.
 
-I used [Somer Esat's - Lighthouse/Geth](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) as a guide and created a single Python script to automate the entire setup and configuration.
+It is based on [Somer Esat's - Lighthouse/Geth](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) Guide and uses a single Python script to automate the entire process.
 
 Important Note: This script does not handle generating validator keys, keystores, mnemonics, or any security related items. It simply prepares the computer for staking by installing the binaries, creating users, writing service files etc. 
 
-After the 1 minute installation, Execution (Geth) and Consensus (Lighthouse) clients are properly configured and can begin syncing.
+After the 1 minute installation, Geth and Ligthouse Beacon are properly configured and can begin syncing.
 
 If you want to run a full validator, you'll also need to generate a mnemonic and keystores to run the validator. Please refer to [Somer's guide](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) or this [Ubuntu - Key Generation Guide](https://agstakingco.gitbook.io/eth-2-0-key-generation-ubuntu-live-usb/) to learn more.
 
@@ -24,17 +24,17 @@ The `validator_install.py` script performs the following tasks:
 5) Creates necessary users, directories, and files.
 6) Downloads and installs the latest Geth and Lighthouse binaries.
 7) Sets up and writes service files for Geth, Lighthouse Beacon, and Lighthouse Validator.
-8) Displays the final setup information, including firewall status and installed software versions.
+8) Displays a summary of the installation, including firewall status and software versions.
 
 **To run the script, use these commands:**
 
 `sudo apt-get update`
 
+`sudo pip install requests`
+
 `sudo apt-get install git`
 
 `git clone https://github.com/PyStakers/validator_install.git`
-
-`sudo pip install requests`
 
 `python3 validator_install/validator_install.py`
 
