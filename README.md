@@ -1,4 +1,4 @@
-# validator_install
+# Ethereum Validator Install
 Ethereum Validator - Automated Installation and Confinguration
 
 1 click, 1 minute, Ethereum Validator running Geth & Lighthouse
