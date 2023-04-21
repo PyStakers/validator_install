@@ -1,5 +1,5 @@
 # validator_install
-Ethereum Validator - Automated Installation
+Ethereum Validator - Automated installation and confinguration
 
 # Summary
 This script automates the installation and setup of an Ethereum validator node with Geth and Lighthouse. It performs the following tasks:
