@@ -14,9 +14,9 @@ This script automates the installation and setup of an Ethereum validator node w
 8) Displays the final setup information, including firewall status and software versions.
 
 **To run the script, use these commands:**
-'sudo apt-get update'
+`sudo apt-get update`
 
-'sudo apt-get install git'
+`sudo apt-get install git`
 
 `git clone https://github.com/PyStakers/validator_install.git`
 
