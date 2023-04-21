@@ -288,8 +288,6 @@ ExecStart=/usr/local/bin/lighthouse vc \\
 WantedBy=multi-user.target
 '''
 
-import os
-
 # Write the service files
 geth_temp_file = 'geth_temp.service'
 beacon_temp_file = 'beacon_temp.service'
