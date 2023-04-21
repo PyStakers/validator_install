@@ -1,4 +1,4 @@
-# Ethereum Validator Install
+# Ethereum Validator - Automated Install
 Automated installation and configuration for Ethereum Validator using Geth & Lighthouse
 
 Easily set up an Ethereum Validator in just 1 click, as opposed to hours spent on manual configuration.
