@@ -39,4 +39,4 @@ The `validator_install.py` script performs the following tasks:
 `python3 validator_install/validator_install.py`
 
 
-**Disclaimer:** This script is for testing purposes only. Do not use it on mainnet Validators. Test using a VM or bootable USB.
+**Disclaimer:** This script is for testing purposes only. Do not use on mainnet Validators.
